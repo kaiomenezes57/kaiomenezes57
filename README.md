@@ -20,62 +20,26 @@ I'm a software developer working across two worlds that don't get talked about t
 
 ### 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🩸 Evil Provenance</h4>
-      A PS1-inspired survival horror game built in <b>Unity 6 (URP)</b>, developed on freelance contract for an indie studio.
-      <ul>
-        <li>Custom shaders for pixelation, Bayer dithering & vertex snapping</li>
-        <li>Async trigger/action system using <code>UniTask</code> and <code>ITriggerSource</code></li>
-        <li>VContainer-based state machines with per-enemy sub-scopes</li>
-        <li>FMOD Studio audio integration</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛍️ KJBeatsStore</h4>
-      An <b>ASP.NET Core</b> virtual store API — my anchor project for practicing Clean Architecture and DDD in the backend world.
-      <ul>
-        <li>Clean Architecture + CQRS with a multi-project solution</li>
-        <li>EF Core relationship modeling (1:N, N:N, value objects via <code>OwnsOne</code>)</li>
-        <li>Pix payment integration with full domain-to-infrastructure flow</li>
-        <li>Google OAuth → JWT flow for a Unity client</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗳️ Quorum</h4>
-      A polls/voting application built with <b>ASP.NET Core (.NET 10)</b>.
-      <ul>
-        <li>Clean Architecture (API, Application, Domain, Infrastructure)</li>
-        <li>MediatR in the Application layer</li>
-        <li>EF Core with MySQL provider</li>
-        <li>Unique twist: users can add predictions to polls and earn points for correct guesses</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🐉 Vehicular Combat (Godot)</h4>
-      A Vigilante 8-inspired vehicular combat prototype built in <b>Godot 4 / C#</b>.
-      <ul>
-        <li>Composition-over-inheritance design</li>
-        <li>Built around Godot's node system</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+| Project | Tech / Stack | Technical Highlights |
+| :--- | :--- | :--- |
+| **🩸 Evil Provenance**<br><sub>PS1-style survival horror (Freelance)</sub> | `Unity 6 (URP)`<br>`UniTask`<br>`VContainer`<br>`FMOD` | • Custom shaders for pixelation, Bayer dithering, and vertex snapping<br>• Async trigger/action system using `UniTask` and `ITriggerSource`<br>• VContainer-based state machines with per-enemy sub-scopes<br>• FMOD Studio audio integration |
+| **🛍️ KJBeatsStore**<br><sub>Virtual Store API (Anchor Project)</sub> | `ASP.NET Core`<br>`EF Core`<br>`Clean Arch`<br>`DDD / CQRS` | • Clean Architecture + CQRS in a multi-project solution<br>• EF Core relationship modeling (1:N, N:N, Value Objects via `OwnsOne`)<br>• Pix payment integration with full Domain-to-Infrastructure flow<br>• Google OAuth → JWT authentication flow for Unity client |
+| **🗳️ Quorum**<br><sub>Polls & Voting Application</sub> | `ASP.NET Core (.NET 10)`<br>`MediatR`<br>`EF Core`<br>`MySQL` | • 4-layer Clean Architecture (API, Application, Domain, Infrastructure)<br>• MediatR in the Application layer<br>• EF Core with MySQL provider<br>• Prediction mechanics on polls with point rewards for correct guesses |
+| **🐉 Vehicular Combat**<br><sub>Vigilante 8-inspired prototype</sub> | `Godot 4`<br>`C#` | • Composition-over-inheritance design approach<br>• Natively structured around Godot's node system |
 
 ---
 
 ### 🧰 Tech & Tools
 
 **Game Dev**
+
 ![Unity](https://img.shields.io/badge/Unity-100000?style=flat&logo=unity&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godotengine&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![FMOD](https://img.shields.io/badge/FMOD-Audio-black?style=flat)
 
 **Backend**
+
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat)
@@ -84,6 +48,7 @@ I'm a software developer working across two worlds that don't get talked about t
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 **Patterns & Practices**
+
 `Clean Architecture` · `DDD` · `CQRS` · `MediatR` · `Hexagonal Architecture` · `Unit of Work` · `Conventional Commits`
 
 ---
