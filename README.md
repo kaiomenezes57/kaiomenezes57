@@ -23,9 +23,9 @@ I'm a software developer working across two worlds that don't get talked about t
 | Project | Tech / Stack | Technical Highlights |
 | :--- | :--- | :--- |
 | **🩸 Evil Provenance**<br><sub>PS1-style survival horror (Freelance)</sub> | `Unity 6 (URP)`<br>`UniTask`<br>`VContainer`<br>`FMOD` | • Custom shaders for pixelation, Bayer dithering, and vertex snapping<br>• Async trigger/action system using `UniTask` and `ITriggerSource`<br>• VContainer-based state machines with per-enemy sub-scopes<br>• FMOD Studio audio integration |
-| **🛍️ KJBeatsStore**<br><sub>Virtual Store API (Anchor Project)</sub> | `ASP.NET Core`<br>`EF Core`<br>`Clean Arch`<br>`DDD / CQRS` | • Clean Architecture + CQRS in a multi-project solution<br>• EF Core relationship modeling (1:N, N:N, Value Objects via `OwnsOne`)<br>• Pix payment integration with full Domain-to-Infrastructure flow<br>• Google OAuth → JWT authentication flow for Unity client |
-| **🗳️ Quorum**<br><sub>Polls & Voting Application</sub> | `ASP.NET Core (.NET 10)`<br>`MediatR`<br>`EF Core`<br>`MySQL` | • 4-layer Clean Architecture (API, Application, Domain, Infrastructure)<br>• MediatR in the Application layer<br>• EF Core with MySQL provider<br>• Prediction mechanics on polls with point rewards for correct guesses |
 | **🐉 Vehicular Combat**<br><sub>Vigilante 8-inspired prototype</sub> | `Godot 4`<br>`C#` | • Composition-over-inheritance design approach<br>• Natively structured around Godot's node system |
+| **🛍️ KJ Store**<br><sub>Virtual Store API (Anchor Project)</sub> | `ASP.NET Core`<br>`EF Core`<br>`Clean Arch`<br>`DDD / CQRS` | • Clean Architecture + CQRS in a multi-project solution<br>• EF Core relationship modeling (1:N, N:N, Value Objects via `OwnsOne`)<br>• Pix payment integration with full Domain-to-Infrastructure flow<br>• Google OAuth → JWT authentication flow for Unity client |
+| **🗳️ Quorum**<br><sub>Polls & Voting Application</sub> | `ASP.NET Core (.NET 10)`<br>`MediatR`<br>`EF Core`<br>`MySQL` | • 4-layer Clean Architecture (API, Application, Domain, Infrastructure)<br>• MediatR in the Application layer<br>• EF Core with MySQL provider<br>• Prediction mechanics on polls with point rewards for correct guesses |
 
 ---
 
