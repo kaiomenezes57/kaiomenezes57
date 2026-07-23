@@ -15,7 +15,6 @@ I'm a software developer working across two worlds that don't get talked about t
 - 🧱 Deep interest in **software architecture**: Clean Architecture, DDD, CQRS, hexagonal architecture, MVC/MVP/MVVM
 - 🛠️ Comfortable across the stack — from gameplay systems to backend APIs and payment integrations
 - 🎵 When I'm not coding, I'm usually exploring music theory
-- 🌎 Brazilian, currently also studying Spanish
 
 ---
 
